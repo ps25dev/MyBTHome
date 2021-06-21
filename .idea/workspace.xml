@@ -19,7 +19,7 @@
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="MainActivity" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
@@ -31,14 +31,28 @@
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd7de545-e18f-4880-8162-058314365397" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/bthome2/BTDeviceListAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/bthome2/BTDeviceListClickListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/bthome2/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device-2021-06-21-151131.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device-2021-06-21-151557.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device-2021-06-21-151626.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,10 +105,11 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="ZF65225SK3" />
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-07-05T11:56:46.972Z" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ScreenshotViewer.SavePath" value="$PROJECT_DIR$" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Videos" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -207,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624267286976</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="bt home application with 4 switch.">
+      <created>1624268228640</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1624268228640</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -224,7 +246,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -238,17 +272,50 @@
     <MESSAGE value="initial commit running app" />
     <MESSAGE value="4 button added and a animation glitch fixed.&#10;copy list update animation from last commit" />
     <MESSAGE value="application name list interface and some minor fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="application name list interface and some minor fixes" />
+    <MESSAGE value="bt home application with 4 switch." />
+    <option name="LAST_COMMIT_MESSAGE" value="bt home application with 4 switch." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1813" y="78" key="CommitChangelistDialog2" timestamp="1624267285910">
+    <state x="-1813" y="78" key="CommitChangelistDialog2" timestamp="1624268227411">
       <screen x="-2400" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1813" y="78" key="CommitChangelistDialog2/0.0.1536.824/-2400.0.1920.1040@-2400.0.1920.1040" timestamp="1624267285910" />
+    <state x="-1813" y="78" key="CommitChangelistDialog2/0.0.1536.824/-2400.0.1920.1040@-2400.0.1920.1040" timestamp="1624268227411" />
+    <state x="-1659" y="260" key="FileChooserDialogImpl" timestamp="1624268845072">
+      <screen x="-2400" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1659" y="260" key="FileChooserDialogImpl/0.0.1536.824/-2400.0.1920.1040@-2400.0.1920.1040" timestamp="1624268845072" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1624268603303">
+      <screen x="-2400" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1536.824/-2400.0.1920.1040@-2400.0.1920.1040" timestamp="1624268603303" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1624268603303">
+      <screen x="-2400" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1536.824/-2400.0.1920.1040@-2400.0.1920.1040" timestamp="1624268603303" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1624268603303">
+      <screen x="-2400" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1536.824/-2400.0.1920.1040@-2400.0.1920.1040" timestamp="1624268603303" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1624268603303">
+      <screen x="-2400" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1536.824/-2400.0.1920.1040@-2400.0.1920.1040" timestamp="1624268603303" />
+    <state x="-1707" y="395" key="ScreenshotRecorder.Options.Dimensions" timestamp="1624268803944">
+      <screen x="-2400" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1707" y="395" key="ScreenshotRecorder.Options.Dimensions/0.0.1536.824/-2400.0.1920.1040@-2400.0.1920.1040" timestamp="1624268803944" />
+    <state x="-2002" y="0" key="ScreenshotViewer.Dimensions" timestamp="1624268789667">
+      <screen x="-2400" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-2002" y="0" key="ScreenshotViewer.Dimensions/0.0.1536.824/-2400.0.1920.1040@-2400.0.1920.1040" timestamp="1624268789667" />
     <state x="-1931" y="165" key="SettingsEditor" timestamp="1624268026816">
       <screen x="-2400" y="0" width="1920" height="1040" />
     </state>
     <state x="-1931" y="165" key="SettingsEditor/0.0.1536.824/-2400.0.1920.1040@-2400.0.1920.1040" timestamp="1624268026816" />
+    <state x="-1847" y="253" key="Vcs.Push.Dialog.v2" timestamp="1624268378423">
+      <screen x="-2400" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1847" y="253" key="Vcs.Push.Dialog.v2/0.0.1536.824/-2400.0.1920.1040@-2400.0.1920.1040" timestamp="1624268378423" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
