@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyBT Home</string>
+    <string name="connect">Connect</string>
+    <string name="connecting">Connecting</string>
+</resources>
